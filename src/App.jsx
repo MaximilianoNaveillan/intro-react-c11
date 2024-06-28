@@ -12,14 +12,12 @@ function App() {
       {console.log(
         "este es el render donde se retornara el pseudo HTML y nunca un cod JS si no está entre '{}' "
       )}
-      <div>
-        <Header nosotros="nosotros" home="inicio" contacto="contacto" />
+      <Header nosotros="nosotros" home="inicio" contacto="contacto" />
 
-        <Main>
-          <Padre />
-        </Main>
-        <Footer />
-      </div>
+      <Main>
+        <Padre />
+      </Main>
+      <Footer />
     </>
   );
 }

@@ -1,8 +1,10 @@
 import React from "react";
 
 function Header({ home, nosotros, contacto }) {
+  const headerStyle = { backgroundColor: "rgb(250,0,0)", height: "200px" };
+
   return (
-    <header>
+    <header style={headerStyle}>
       <nav>
         <ul>
           <li>

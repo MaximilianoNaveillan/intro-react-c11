@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Padre from "./components/Padre";
 import TextButtons from "./components/Buttons/TextButtons";
 import OutLinedButton from "./components/Buttons/OutLinedButton";
+import CardGrupo1 from "./Grupo1/CardGrupo1";
 
 function App() {
   console.log("este es el componente App");
@@ -19,8 +20,10 @@ function App() {
       <Main>
         <Padre />
         <TextButtons>Contenido</TextButtons>
-
         <OutLinedButton>Contenido2</OutLinedButton>
+        <div className="card">
+          <CardGrupo1 />
+        </div>
       </Main>
       {/* <Footer /> */}
     </>

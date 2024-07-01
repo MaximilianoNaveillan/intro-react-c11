@@ -1,9 +1,6 @@
-import React from "react";
-
 export default function Main({ children }) {
-  console.log(children);
   return (
-    <main>
+    <main className="mymain">
       <article>{children}</article>
     </main>
   );

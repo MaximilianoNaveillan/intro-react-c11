@@ -4,6 +4,7 @@ import Main from "./components/Main/index";
 import Footer from "./components/Footer";
 import Padre from "./components/Padre";
 import TextButtons from "./components/Buttons/TextButtons";
+import OutLinedButton from "./components/Buttons/OutLinedButton";
 
 function App() {
   console.log("este es el componente App");
@@ -17,7 +18,9 @@ function App() {
 
       <Main>
         <Padre />
-        <TextButtons></TextButtons>
+        <TextButtons>Contenido</TextButtons>
+
+        <OutLinedButton>Contenido2</OutLinedButton>
       </Main>
       {/* <Footer /> */}
     </>

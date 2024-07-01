@@ -1,8 +1,16 @@
 import "./styles.css";
-function TextButtons() {
+/* 
+function myFunction(prp) {
+  console.log(prp)
+}
+
+myFunction("lo que sea")
+
+*/
+function TextButtons({ children }) {
   return (
     <button className="btn" type="button">
-      <span>Botón</span>
+      <span>{children}</span>
     </button>
   );
 }

@@ -1,0 +1,32 @@
+.card {
+  justify-content: start;
+  flex-direction: column;
+  display: flex;
+  border-radius: 1rem;
+  background-color: white;
+  height: 20rem;
+  width: 20rem;
+}
+.cardImg {
+  height: 8rem;
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+.text {
+  color: black;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-direction: column;
+  height: 12rem;
+  padding: 2rem;
+}
+.text > p {
+  opacity: 30%;
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.text > h3 {
+  opacity: 60%;
+}

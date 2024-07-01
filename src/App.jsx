@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Padre from "./components/Padre";
 import TextButtons from "./components/Buttons/TextButtons";
 import OutLinedButton from "./components/Buttons/OutLinedButton";
+import CardGrupoSeis from "./components/CardGrupoSeis/CardGrupoSeis";
 
 function App() {
   console.log("este es el componente App");
@@ -21,6 +22,13 @@ function App() {
         <TextButtons>Contenido</TextButtons>
 
         <OutLinedButton>Contenido2</OutLinedButton>
+        <CardGrupoSeis>
+          {[
+            "Jerome Bell",
+            "Constructrive and destructive waves",
+            "2 hours 40 minutes",
+          ]}
+        </CardGrupoSeis>
       </Main>
       {/* <Footer /> */}
     </>

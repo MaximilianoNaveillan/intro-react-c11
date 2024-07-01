@@ -1,8 +1,9 @@
 import "./App.css";
 import Header from "./components/Header/index";
-import Main from "./components/Main";
+import Main from "./components/Main/index";
 import Footer from "./components/Footer";
 import Padre from "./components/Padre";
+import TextButtons from "./components/Buttons/TextButtons";
 
 function App() {
   console.log("este es el componente App");
@@ -16,8 +17,9 @@ function App() {
 
       <Main>
         <Padre />
+        <TextButtons></TextButtons>
       </Main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

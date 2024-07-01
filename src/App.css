@@ -12,6 +12,7 @@
   --title-color: hsl(0, 0%, 95%);
   --text-color: hsl(0, 0%, 75%);
   --body-color: hsl(0, 0%, 6%);
+  --main-color: hsl(256, 100%, 64%);
   --body-font: "Montserrat", sans-serif;
   --second-font: "Dancing Script", cursive;
   --h2-font-size: 1.25rem;

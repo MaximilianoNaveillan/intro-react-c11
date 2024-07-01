@@ -13,8 +13,8 @@ function Hijo({ msn, SaludodesdeHijoaPadre }) {
 }
 
 function Padre() {
-  //    [  var   , function que cambia el estado de la variable]
-  const [saludo, setSaludo] = useState(""); // Hook que permitira manejar estados en un compnente
+  //    [  estado   , function que cambia el estado de la variable (*estado)]
+  const [saludo, setSaludo] = useState("que tal"); // Hook que permitira manejar estados en un compnente
   const SaludodesdeHijoaPadre = (mensaje) => {
     setSaludo(mensaje);
   };

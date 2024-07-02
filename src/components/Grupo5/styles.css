@@ -14,9 +14,6 @@
   border-radius: 12px;
   width: 360px;
   height: 400px;
-}
-
-.nav_cardGrupo5 {
   display: flex;
   flex-direction: column;
   gap: 24px;

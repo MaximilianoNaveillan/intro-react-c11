@@ -21,7 +21,12 @@ function App() {
         <Padre />
         <TextButtons>Contenido</TextButtons>
         <OutLinedButton>Contenido2</OutLinedButton>
-        <CardGrupo5 />
+        <CardGrupo5
+          titulo="Constructive and destructive waves"
+          subtitulo="Reading Task"
+          item="Item"
+          btnContinue="Continue"
+        />
       </Main>
       {/* <Footer /> */}
     </>

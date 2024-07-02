@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Padre from "./components/Padre";
 import TextButtons from "./components/Buttons/TextButtons";
 import OutLinedButton from "./components/Buttons/OutLinedButton";
+import CardGrupo4 from "./components/Cards/CardGrupo4";
 
 function App() {
   console.log("este es el componente App");
@@ -21,7 +22,13 @@ function App() {
         <TextButtons>Contenido</TextButtons>
 
         <OutLinedButton>Contenido2</OutLinedButton>
+        <CardGrupo4>
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </CardGrupo4>
       </Main>
+
       {/* <Footer /> */}
     </>
   );

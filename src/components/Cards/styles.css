@@ -1,0 +1,42 @@
+.card {
+  background-color: hsl(0, 0%, 100%);
+  width: 360px;
+  height: 329px;
+  padding: 24px 16px 24px 16px;
+  border-radius: 12px;
+  color: hsl(260, 5%, 39%);
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.img__card {
+  width: 48px;
+  height: 48px;
+  border-radius: 25px;
+  display: block;
+  margin: auto;
+}
+
+.title__card {
+  font-size: 24px;
+  font-weight: 600;
+  color: hsl(256, 8%, 17%);
+  text-align: center;
+  letter-spacing: -0.04em;
+  line-height: 29.05px;
+}
+
+.content__card {
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  line-height: 19.36px;
+}
+
+.button__card {
+  width: 328px;
+  height: 30px;
+  border-radius: 8px;
+}
